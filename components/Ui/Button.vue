@@ -13,7 +13,7 @@
 
 <script setup>
   // eslint-disable-next-line no-console
-  const onSuccess = (resp) => console.log(resp);
+  const onSuccess = (resp) => alert(resp);
   // eslint-disable-next-line no-console
   const onError = (resp) => console.error(resp);
 </script>
